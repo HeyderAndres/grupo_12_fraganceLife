@@ -47,7 +47,7 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING(200),
       allowNull: false
     },
-    discount: {
+    discount_id: {
       type: DataTypes.INTEGER,
       allowNull: false
     }
